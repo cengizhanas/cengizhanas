@@ -1,19 +1,22 @@
 <div align="center">
 
-<img src="./assets/cengizhan-header.svg" width="100%" alt="Cengizhan As — Software Engineer & Product Builder" />
+<img src="./assets/cengizhan-header.svg" width="100%" alt="Cengizhan As — Ship fast. Shine bright." />
 
 <br/>
 
-<a href="https://github.com/cengizhanas">
-  <img src="https://komarev.com/ghpvc/?username=cengizhanas&label=PROFILE+VIEWS&color=7c3aed&style=flat-square" alt="Profile views" />
+<a href="https://casgames.com.tr">
+  <img src="https://img.shields.io/badge/CasGames-Play%20fast.%20Shine%20bright.-22D3EE?style=for-the-badge&labelColor=0B1220" alt="CasGames" />
 </a>
-<img src="https://img.shields.io/github/followers/cengizhanas?label=FOLLOWERS&style=flat-square&color=0891b2" alt="GitHub followers" />
+<a href="https://github.com/cengizhanas">
+  <img src="https://komarev.com/ghpvc/?username=cengizhanas&label=PROFILE+VIEWS&color=E879F9&style=flat-square" alt="Profile views" />
+</a>
+<img src="https://img.shields.io/github/followers/cengizhanas?label=FOLLOWERS&style=flat-square&color=22D3EE" alt="GitHub followers" />
 
 <br/><br/>
 
 <a href="https://git.io/typing-svg">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2700&pause=850&color=A78BFA&center=true&vCenter=true&width=900&lines=Building+mobile+apps%2C+extensions+and+backend+systems.;Turning+ideas+into+real+product+architecture.;Go+for+backend.+Flutter+for+products.+Rust+where+it+fits.;Automation%2C+local+AI+and+developer+tooling.;From+rough+concept+%E2%86%92+working+system."
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Arcade+energy.+Production+grade.;I+ship+games%2C+apps+and+backend+systems.;Flutter+on+device.+Go+in+the+core.;Short+sessions.+High+polish.+Real+products.;CasGames+%E2%80%94+Play+fast.+Shine+bright."
     alt="Typing animation"
   />
 </a>
@@ -22,322 +25,205 @@
 
 ---
 
-## `01 / ABOUT`
+## `01 / INTRO`
 
 ```text
 CENGIZHAN AS
+Software Engineer · Product Builder · Indie Studio
 
-Software Engineer · Product Builder
+I build things people actually open again.
 
-I design and build software products across multiple layers:
+→ neon arcade / casual mobile games
+→ Flutter products with sharp UX
+→ Go backends that stay boring (in a good way)
+→ tooling, automation and local AI pipelines
 
-→ mobile applications
-→ backend systems
-→ IDE / developer extensions
-→ automation workflows
-→ local AI pipelines
-→ product architecture
-
-My strongest engineering direction is backend development with Go,
-but I enjoy building the complete product around the backend —
-from mobile UX and integrations to automation and infrastructure.
+Studio: CasGames  ·  Site: casgames.com.tr
 ```
 
 <div align="center">
-  <img src="./assets/build-spectrum.svg" width="100%" alt="Cengizhan As build spectrum" />
+  <img src="./assets/build-spectrum.svg" width="100%" alt="Build spectrum" />
 </div>
 
-## `02 / WHAT I BUILD`
+## `02 / HOW I BUILD`
+
+Kısa seans. Yüksek tempo. Temiz his.  
+Same energy whether it’s a game loop or an API boundary.
+
+<div align="center">
+  <img src="./assets/mode-pillars.svg" width="100%" alt="Arcade · Systems · Polish" />
+</div>
+
+| Mode | Feel | What it means |
+|:--|:--|:--|
+| **Arcade** | Touch & go | Instant feedback, reflex loops, fun first |
+| **Systems** | Quiet power | Clear services, data, queues, observability |
+| **Polish** | Clean hit | Motion, typography, controls that feel right |
+
+## `03 / CASGAMES`
+
+I run **[CasGames](https://casgames.com.tr)** — arcade-souled casual mobile games.  
+Fast to open. Easy to play. Hard to put down.
+
+<div align="center">
+  <img src="./assets/products-strip.svg" width="100%" alt="Frenzy Stack · Void Hunter · Das Library" />
+  <br/>
+  <img src="./assets/cas-icon-set.png" width="420" alt="CasGames icon set" />
+</div>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### `Frenzy Stack` 🟢 Live
+**Stack blocks. Reach the top!**
+
+Dokun, bırak, hayatta kal. Timing + reflexes, Frenzy Mode, skins, global leaderboard.
+
+`Casual` `iOS` `Android`
+
+[Oyun sayfası](https://casgames.com.tr) · App Store · Google Play
+
+</td>
+<td width="33%" valign="top">
+
+### `Void Hunter` 🟣 Soon
+**Survive the rift. Hunt together.**
+
+Avcı seç, cephaneyi geliştir, kaleyi güçlendir — co-op aksiyon.
+
+`Action` `Co-op` `Coming soon`
+
+[Bekleme listesi](https://casgames.com.tr)
+
+</td>
+<td width="33%" valign="top">
+
+### `Das Library` 🔵 Live
+**Read. Track. Build the habit.**
+
+Oyun değil — dijital kütüphane & günlük: kitaplar, seriler, notlar.
+
+`Reading` `iOS` `Android`
+
+[casgames.com.tr](https://casgames.com.tr)
+
+</td>
+</tr>
+</table>
+
+## `04 / WHAT ELSE I SHIP`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### `Mobile Products`
+Apps where product logic matters as much as pixels.
 
-I like building apps where product logic matters as much as UI.
+- multi-profile / personalized flows
+- notification-heavy experiences
+- community & creator mechanics
+- quiz / challenge / map concepts
 
-**Examples of product directions**
-- multi-profile / personalized apps
-- community-driven products
-- challenge / quiz experiences
-- map-based interaction concepts
-- notification-heavy applications
-- creator & sharing workflows
-
-`Flutter` `Mobile Architecture` `Product UX`
+`Flutter` `Product UX` `Mobile architecture`
 
 </td>
 <td width="50%" valign="top">
 
 ### `Backend Systems`
+The layer I go deepest on.
 
-Backend is the engineering layer I want to go deepest on.
-
-**Focus**
-- REST & gRPC APIs
-- authentication / authorization
-- PostgreSQL & Redis
-- queues / event-driven flows
-- observability
-- modular architecture
-- testing & deployment
+- REST & gRPC
+- authN / authZ
+- PostgreSQL · Redis
+- queues & events
+- modular services + observability
 
 `Go` `Rust` `PostgreSQL` `Redis`
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### `Extensions & Developer Tools`
+### `Developer Tools`
+Friction-killers for how builders work.
 
-I enjoy tools that remove friction from how developers work.
-
-**Examples**
-- IDE → task manager integrations
+- IDE → task manager bridges
 - AI-assisted task expansion
 - multi-workspace routing
-- extension configuration flows
-- automation around developer context
+- automation around context
 
-`Extensions` `Integrations` `Developer Tooling`
+`Extensions` `Integrations` `DX`
 
 </td>
 <td width="50%" valign="top">
 
 ### `Automation & Local AI`
+Systems that research, verify, generate and self-repair.
 
-I like systems that can research, verify, generate and repair their own workflow.
-
-**Focus**
 - multi-agent pipelines
-- independent verification
-- self-repair / retry loops
+- verification loops
 - local model orchestration
 - media / content automation
-- structured task generation
 
-`Local AI` `Agents` `Automation`
-
-</td>
-</tr>
-</table>
-
-## `03 / PRODUCT DNA`
-
-```yaml
-product_engineering:
-  mobile:
-    - Flutter
-    - interaction-heavy apps
-    - notifications
-    - profiles
-    - community systems
-    - creator flows
-
-  backend:
-    primary: Go
-    secondary: Rust
-    database: PostgreSQL
-    cache: Redis
-    messaging:
-      - RabbitMQ
-      - Kafka
-    api:
-      - REST
-      - gRPC
-
-  developer_tools:
-    - IDE extensions
-    - API integrations
-    - workflow automation
-    - task orchestration
-
-  ai_systems:
-    - local LLM workflows
-    - agent pipelines
-    - verification
-    - retry / repair loops
-
-  infrastructure:
-    - Docker
-    - Docker Compose
-    - Linux
-    - Nginx
-    - GitHub Actions
-    - AWS
-
-  observability:
-    - Prometheus
-    - Grafana
-    - OpenTelemetry
-```
-
-## `04 / SELECTED PRODUCT DIRECTIONS`
-
-> These represent systems, products and concepts I have designed, explored or implemented at different stages.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### `IDE → Task Extension`
-
-An extension concept for converting IDE context into structured tasks.
-
-**System ideas**
-- Cursor / Gemini compatible workflow
-- AI-generated task detail
-- ClickUp / task manager integration
-- workspace / list / section routing
-- multiple API integrations
-- configurable defaults
-
-`extension` `AI` `developer tooling`
-
-</td>
-<td width="50%" valign="top">
-
-### `Autonomous Media Pipeline`
-
-A full local-first automated content system.
-
-**Pipeline**
-- research
-- fact verification
-- script generation
-- visual matching
-- TTS / alignment
-- rendering
-- QC
-- retry / self-repair
-
-`local AI` `multi-agent` `automation`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### `Multi-Faith Mobile Platform`
-
-A profile-driven mobile product with religion/tradition-specific behavior.
-
-**System ideas**
-- personalized notification engine
-- worship / practice tracking
-- AI Q&A layer
-- community discussions
-- translation / moderation
-- premium feature boundaries
-
-`mobile` `backend` `notifications`
-
-</td>
-<td width="50%" valign="top">
-
-### `Social Quiz Platform`
-
-An interaction-heavy mobile/web product built around tests, challenges and sharing.
-
-**System ideas**
-- discovery & trends
-- categories
-- quiz flows
-- challenge / battle modes
-- creator studio
-- profiles & activity
-- social sharing
-
-`Flutter` `social product` `content`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### `Map-Based Game Concepts`
-
-Real-world / map-driven multiplayer interaction concepts.
-
-**System ideas**
-- create nearby games
-- join live sessions
-- local game discovery
-- multiplayer state
-- proximity-driven interactions
-
-`maps` `realtime` `mobile`
-
-</td>
-<td width="50%" valign="top">
-
-### `Personal Memory Products`
-
-Consumer-app concepts around notes, moments and personal collections.
-
-**System ideas**
-- multiple notebooks
-- screenshot capture workflows
-- quick-entry UX
-- personal activity history
-- lightweight organization
-
-`mobile` `consumer apps` `UX`
+`Agents` `Local AI` `Pipelines`
 
 </td>
 </tr>
 </table>
 
-## `05 / CORE STACK`
+## `05 / STACK`
 
 <div align="center">
 
-![Go](https://img.shields.io/badge/Go-PRIMARY-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-SECONDARY-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-MOBILE-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Go](https://img.shields.io/badge/Go-BACKEND-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-PRODUCT-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-WHERE_IT_FITS-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DATA-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
 ![Redis](https://img.shields.io/badge/Redis-CACHE-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-![Docker](https://img.shields.io/badge/Docker-CONTAINERS-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-RUNTIME-FCC624?style=for-the-badge&logo=linux&logoColor=111111)
-![Nginx](https://img.shields.io/badge/Nginx-EDGE-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-QUEUES-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-EVENTS-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-SERVICES-244C5A?style=for-the-badge&logo=google&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-SHIP-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-LIVE_OPS-FFCA28?style=for-the-badge&logo=firebase&logoColor=111111)
+![GitHub Actions](https://img.shields.io/badge/Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-CLOUD-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 
 </div>
 
-## `06 / HOW I THINK`
-
-```text
-01. Start from the actual user problem.
-02. Design the product flow before overengineering the stack.
-03. Keep backend boundaries clear.
-04. Automate work that should not stay manual.
-05. Treat failures as part of the architecture.
-06. Prefer observable systems.
-07. Use AI as a system component, not as magic.
-08. Build complete products, not isolated demos.
+```yaml
+core:
+  product: [Flutter, Dart, Firebase]
+  backend: [Go, Rust, PostgreSQL, Redis]
+  realtime: [gRPC, WebSocket, queues]
+  ops: [Docker, Nginx, GitHub Actions, AWS]
+  craft: [motion, UX polish, arcade feel]
 ```
 
-## `07 / GITHUB SIGNAL`
+## `06 / PLAYBOOK`
+
+```text
+01. Start from the feeling the user should get in 3 seconds.
+02. Design the loop before the stack.
+03. Keep backend boundaries boring and clear.
+04. Automate anything that should not stay manual.
+05. Treat failures as part of the architecture.
+06. Prefer systems you can observe.
+07. Use AI as a component — not a magic wand.
+08. Ship complete products, not isolated demos.
+```
+
+## `07 / SIGNAL`
 
 <div align="center">
 
 <img height="170"
-  src="https://github-readme-stats.vercel.app/api?username=cengizhanas&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&bg_color=00000000&title_color=A78BFA&icon_color=22D3EE"
+  src="https://github-readme-stats.vercel.app/api?username=cengizhanas&show_icons=true&hide_border=true&rank_icon=github&theme=radical&bg_color=00000000&title_color=67E8F9&icon_color=FB7185&text_color=CBD5E1"
   alt="GitHub stats" />
 
 <img height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=cengizhanas&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000&langs_count=8&title_color=A78BFA"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=cengizhanas&layout=compact&hide_border=true&theme=radical&bg_color=00000000&langs_count=8&title_color=E879F9&text_color=CBD5E1"
   alt="Top languages" />
 
 </div>
@@ -345,12 +231,14 @@ Consumer-app concepts around notes, moments and personal collections.
 <div align="center">
   <img
     width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=cengizhanas&theme=tokyo-night&hide_border=true&bg_color=00000000&area=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=cengizhanas&theme=react-dark&hide_border=true&bg_color=00000000&color=22D3EE&line=E879F9&point=A3E635&area=true"
     alt="GitHub activity graph"
   />
 </div>
 
-## `08 / CONTRIBUTION FLOW`
+## `08 / CONTRIBUTION SNAKE`
+
+<div align="center">
 
 <picture>
   <source
@@ -367,23 +255,26 @@ Consumer-app concepts around notes, moments and personal collections.
   />
 </picture>
 
+</div>
+
 ---
 
 <div align="center">
 
 ### `CENGIZHAN AS`
 
-**Software Engineer · Product Builder**
+**Arcade energy. Production grade.**
 
-`Mobile Apps` · `Backend Systems` · `Extensions` · `Automation` · `Local AI`
+`Games` · `Mobile` · `Backend` · `Tools` · `Local AI`
 
 <br/>
 
+[![CasGames](https://img.shields.io/badge/CasGames-casgames.com.tr-22D3EE?style=for-the-badge&labelColor=0B1220)](https://casgames.com.tr)
 [![GitHub](https://img.shields.io/badge/GitHub-cengizhanas-181717?style=for-the-badge&logo=github)](https://github.com/cengizhanas)
+[![Email](https://img.shields.io/badge/Email-hello-FB7185?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cengizhanas.ca@gmail.com)
 
-<!-- Enable when ready:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](__LINKEDIN_URL__)
-[![Portfolio](https://img.shields.io/badge/Portfolio-OPEN-7C3AED?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](__PORTFOLIO_URL__)
--->
+<br/>
+
+**Ship fast. Shine bright.**
 
 </div>

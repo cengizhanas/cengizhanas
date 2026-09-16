@@ -1,58 +1,72 @@
-<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <linearGradient id="line" x1="100" y1="0" x2="1100" y2="0">
-    <stop stop-color="#22D3EE"/>
-    <stop offset=".25" stop-color="#3B82F6"/>
-    <stop offset=".5" stop-color="#8B5CF6"/>
-    <stop offset=".75" stop-color="#C084FC"/>
-    <stop offset="1" stop-color="#F472B6"/>
-  </linearGradient>
-  <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="5" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-</defs>
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rail" x1="80" y1="0" x2="1120" y2="0">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".33" stop-color="#A3E635"/>
+      <stop offset=".66" stop-color="#E879F9"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
-<rect width="1200" height="240" rx="18" fill="#070B14" stroke="#1F2937"/>
-<path d="M120 120H1080" stroke="#1E293B" stroke-width="3"/>
-<path d="M120 120H1080" stroke="url(#line)" stroke-width="2" stroke-dasharray="12 18">
-  <animate attributeName="stroke-dashoffset" values="0;-60" dur="2.4s" repeatCount="indefinite"/>
-</path>
+  <rect width="1200" height="260" rx="20" fill="#070B14" stroke="#1F2937"/>
 
-<g font-family="ui-monospace, Menlo, monospace">
-  <g transform="translate(120 120)">
-    <circle r="20" fill="#07151A" stroke="#22D3EE" stroke-width="2"/>
-    <circle r="5" fill="#22D3EE" filter="url(#g)"/>
-    <text x="-46" y="-43" fill="#CBD5E1" font-size="15" font-weight="700">MOBILE</text>
-    <text x="-62" y="56" fill="#64748B" font-size="12">APPS / UX</text>
+  <text x="600" y="42" text-anchor="middle" fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="13" letter-spacing="3">
+    BUILD SPECTRUM
+  </text>
+
+  <path d="M90 140H1110" stroke="#1E293B" stroke-width="3"/>
+  <path d="M90 140H1110" stroke="url(#rail)" stroke-width="2.5" stroke-dasharray="10 16">
+    <animate attributeName="stroke-dashoffset" values="0;-52" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="ui-monospace, Menlo, monospace">
+    <g transform="translate(120 140)">
+      <circle r="24" fill="#07151A" stroke="#22D3EE" stroke-width="2"/>
+      <circle r="6" fill="#22D3EE" filter="url(#g)">
+        <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-34" y="-48" fill="#E2E8F0" font-size="15" font-weight="700">GAMES</text>
+      <text x="-52" y="58" fill="#64748B" font-size="12">ARCADE / CASUAL</text>
+    </g>
+
+    <g transform="translate(360 140)">
+      <circle r="24" fill="#0A1708" stroke="#A3E635" stroke-width="2"/>
+      <circle r="6" fill="#A3E635" filter="url(#g)">
+        <animate attributeName="r" values="5;8;5" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-38" y="-48" fill="#E2E8F0" font-size="15" font-weight="700">MOBILE</text>
+      <text x="-48" y="58" fill="#64748B" font-size="12">FLUTTER / UX</text>
+    </g>
+
+    <g transform="translate(600 140)">
+      <circle r="24" fill="#120C20" stroke="#E879F9" stroke-width="2"/>
+      <circle r="6" fill="#E879F9" filter="url(#g)">
+        <animate attributeName="r" values="5;8;5" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-46" y="-48" fill="#E2E8F0" font-size="15" font-weight="700">BACKEND</text>
+      <text x="-52" y="58" fill="#64748B" font-size="12">GO / APIs</text>
+    </g>
+
+    <g transform="translate(840 140)">
+      <circle r="24" fill="#180F22" stroke="#C084FC" stroke-width="2"/>
+      <circle r="6" fill="#C084FC" filter="url(#g)">
+        <animate attributeName="r" values="5;8;5" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-42" y="-48" fill="#E2E8F0" font-size="15" font-weight="700">TOOLS</text>
+      <text x="-68" y="58" fill="#64748B" font-size="12">EXTENSIONS / AI</text>
+    </g>
+
+    <g transform="translate(1080 140)">
+      <circle r="24" fill="#1A0C18" stroke="#FB7185" stroke-width="2"/>
+      <circle r="6" fill="#FB7185" filter="url(#g)">
+        <animate attributeName="r" values="5;8;5" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-42" y="-48" fill="#E2E8F0" font-size="15" font-weight="700">POLISH</text>
+      <text x="-58" y="58" fill="#64748B" font-size="12">FEEL / DETAIL</text>
+    </g>
   </g>
-
-  <g transform="translate(360 120)">
-    <circle r="20" fill="#071224" stroke="#3B82F6" stroke-width="2"/>
-    <circle r="5" fill="#60A5FA" filter="url(#g)"/>
-    <text x="-50" y="-43" fill="#CBD5E1" font-size="15" font-weight="700">BACKEND</text>
-    <text x="-66" y="56" fill="#64748B" font-size="12">APIs / DATA</text>
-  </g>
-
-  <g transform="translate(600 120)">
-    <circle r="20" fill="#120C20" stroke="#8B5CF6" stroke-width="2"/>
-    <circle r="5" fill="#A78BFA" filter="url(#g)"/>
-    <text x="-55" y="-43" fill="#CBD5E1" font-size="15" font-weight="700">EXTENSIONS</text>
-    <text x="-78" y="56" fill="#64748B" font-size="12">TOOLS / INTEGRATION</text>
-  </g>
-
-  <g transform="translate(840 120)">
-    <circle r="20" fill="#180F22" stroke="#C084FC" stroke-width="2"/>
-    <circle r="5" fill="#C084FC" filter="url(#g)"/>
-    <text x="-56" y="-43" fill="#CBD5E1" font-size="15" font-weight="700">AUTOMATION</text>
-    <text x="-74" y="56" fill="#64748B" font-size="12">PIPELINES / FLOW</text>
-  </g>
-
-  <g transform="translate(1080 120)">
-    <circle r="20" fill="#1A0C18" stroke="#F472B6" stroke-width="2"/>
-    <circle r="5" fill="#F472B6" filter="url(#g)"/>
-    <text x="-46" y="-43" fill="#CBD5E1" font-size="15" font-weight="700">LOCAL AI</text>
-    <text x="-72" y="56" fill="#64748B" font-size="12">AGENTS / REPAIR</text>
-  </g>
-</g>
 </svg>

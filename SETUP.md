@@ -20,6 +20,10 @@ local-AI pipelines and product architecture.
    - README.md
    - assets/cengizhan-header.svg
    - assets/build-spectrum.svg
+   - assets/mode-pillars.svg
+   - assets/products-strip.svg
+   - assets/cas-icon-set.png
+   - assets/hero-neon-banner.png (optional)
    - .github/workflows/snake.yml
 
 3. Replace every occurrence of:
@@ -35,10 +39,9 @@ local-AI pipelines and product architecture.
 
 ## Design language
 
-- dark graphite command-center look
-- cyan → blue → violet → pink signal gradient
-- animated data line
-- rotating system-node motif
-- engineering grid
-- monospace typography
-- product + systems feel instead of generic hacker theme
+- CasGames neon arcade energy (cyan → lime → magenta → pink)
+- “Ship fast. Shine bright.” / “Play fast. Shine bright.”
+- animated SVGs: header, spectrum, mode pillars, products strip
+- product-first layout (Frenzy Stack, Void Hunter, Das Library)
+- monospace HUD typography + arcade cabinet side lights
+- fun but production-grade — not generic purple-AI theme

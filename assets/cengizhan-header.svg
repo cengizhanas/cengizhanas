@@ -1,78 +1,107 @@
-<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380">
-    <stop stop-color="#05070D"/>
-    <stop offset=".5" stop-color="#0B1020"/>
-    <stop offset="1" stop-color="#05070D"/>
-  </linearGradient>
-  <linearGradient id="sig" x1="180" y1="0" x2="1020" y2="0">
-    <stop stop-color="#22D3EE"/>
-    <stop offset=".47" stop-color="#8B5CF6"/>
-    <stop offset="1" stop-color="#F472B6"/>
-  </linearGradient>
-  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="7" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0H0V40" fill="none" stroke="#182033" stroke-width="1"/>
-  </pattern>
-</defs>
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420">
+      <stop stop-color="#05060A"/>
+      <stop offset=".45" stop-color="#0A0F1C"/>
+      <stop offset="1" stop-color="#120818"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="80" y1="0" x2="1120" y2="0">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".35" stop-color="#38BDF8"/>
+      <stop offset=".65" stop-color="#E879F9"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <linearGradient id="barL" x1="0" y1="0" x2="0" y2="420">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="barR" x1="0" y1="0" x2="0" y2="420">
+      <stop stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#1A2338" stroke-width="1"/>
+    </pattern>
+  </defs>
 
-<rect width="1200" height="380" rx="28" fill="url(#bg)"/>
-<rect width="1200" height="380" rx="28" fill="url(#grid)" opacity=".52"/>
+  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="30" fill="url(#grid)" opacity=".45"/>
 
-<circle cx="95" cy="70" r="85" fill="#8B5CF6" opacity=".07">
-  <animate attributeName="r" values="65;100;65" dur="7s" repeatCount="indefinite"/>
-</circle>
-<circle cx="1105" cy="300" r="115" fill="#22D3EE" opacity=".05">
-  <animate attributeName="r" values="95;130;95" dur="8s" repeatCount="indefinite"/>
-</circle>
+  <!-- arcade cabinet side lights -->
+  <rect x="18" y="28" width="10" height="364" rx="5" fill="url(#barL)" opacity=".9">
+    <animate attributeName="opacity" values=".55;1;.55" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1172" y="28" width="10" height="364" rx="5" fill="url(#barR)" opacity=".9">
+    <animate attributeName="opacity" values="1;.55;1" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
 
-<rect x="150" y="48" width="900" height="276" rx="22" fill="#070B14" stroke="#273149" stroke-width="2"/>
-<rect x="150" y="48" width="900" height="40" rx="22" fill="#0D1322"/>
-<rect x="150" y="70" width="900" height="18" fill="#0D1322"/>
-
-<circle cx="179" cy="68" r="6" fill="#FB7185"/>
-<circle cx="201" cy="68" r="6" fill="#FACC15"/>
-<circle cx="223" cy="68" r="6" fill="#4ADE80"/>
-
-<text x="600" y="74" text-anchor="middle" fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="12">
-  cengizhan.as://profile
-</text>
-
-<text x="205" y="135" fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="15">
-  SOFTWARE / PRODUCT / SYSTEMS
-</text>
-
-<text x="205" y="205" fill="url(#sig)" font-family="ui-monospace, Menlo, monospace" font-size="56" font-weight="800" filter="url(#glow)">
-  CENGIZHAN AS
-</text>
-
-<text x="208" y="246" fill="#CBD5E1" font-family="ui-monospace, Menlo, monospace" font-size="21" letter-spacing="3">
-  SOFTWARE ENGINEER · PRODUCT BUILDER
-</text>
-
-<text x="208" y="286" fill="#7C8AA5" font-family="ui-monospace, Menlo, monospace" font-size="15">
-  MOBILE APPS  •  BACKEND SYSTEMS  •  EXTENSIONS  •  AUTOMATION  •  LOCAL AI
-</text>
-
-<g transform="translate(870 112)">
-  <circle cx="66" cy="66" r="58" stroke="#25314A" stroke-width="1.5"/>
-  <circle cx="66" cy="66" r="43" stroke="#334155" stroke-width="1.5" stroke-dasharray="5 8">
-    <animateTransform attributeName="transform" type="rotate" from="0 66 66" to="360 66 66" dur="9s" repeatCount="indefinite"/>
+  <circle cx="220" cy="90" r="90" fill="#22D3EE" opacity=".06">
+    <animate attributeName="r" values="70;110;70" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="66" cy="66" r="25" fill="#8B5CF6" opacity=".12"/>
-  <circle cx="66" cy="66" r="7" fill="#A78BFA" filter="url(#glow)">
-    <animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/>
+  <circle cx="980" cy="320" r="120" fill="#FB7185" opacity=".06">
+    <animate attributeName="r" values="95;135;95" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="66" cy="23" r="4" fill="#22D3EE">
-    <animateTransform attributeName="transform" type="rotate" from="0 66 66" to="360 66 66" dur="4.5s" repeatCount="indefinite"/>
-  </circle>
-</g>
 
-<rect x="150" y="346" width="900" height="3" rx="2" fill="#172033"/>
-<rect x="150" y="346" width="240" height="3" rx="2" fill="url(#sig)">
-  <animate attributeName="x" values="150;810;150" dur="8s" repeatCount="indefinite"/>
-</rect>
+  <!-- HUD frame -->
+  <rect x="70" y="42" width="1060" height="336" rx="24" fill="#070B14" stroke="#243047" stroke-width="2"/>
+  <rect x="70" y="42" width="1060" height="44" rx="24" fill="#0C1220"/>
+  <rect x="70" y="68" width="1060" height="18" fill="#0C1220"/>
+
+  <circle cx="100" cy="64" r="6" fill="#FB7185"/>
+  <circle cx="122" cy="64" r="6" fill="#FACC15"/>
+  <circle cx="144" cy="64" r="6" fill="#4ADE80"/>
+
+  <text x="600" y="70" text-anchor="middle" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">
+    CASGAMES://STUDIO · ENGINEER MODE
+  </text>
+
+  <text x="110" y="128" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="3">
+    ARCADE ENERGY · PRODUCTION GRADE
+  </text>
+
+  <text x="110" y="198" fill="url(#neon)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="58" font-weight="800" filter="url(#glow)">
+    CENGIZHAN AS
+  </text>
+
+  <text x="112" y="242" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" letter-spacing="2">
+    Software Engineer · Product Builder · Indie Studio
+  </text>
+
+  <text x="112" y="282" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">
+    Mobile games · Backend systems · Flutter apps · Local AI tooling
+  </text>
+
+  <!-- tagline chip -->
+  <rect x="112" y="308" width="268" height="36" rx="10" fill="#0B1726" stroke="#22D3EE" stroke-width="1.5"/>
+  <text x="246" y="332" text-anchor="middle" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700">
+    Ship fast. Shine bright.
+  </text>
+
+  <!-- orbit motif -->
+  <g transform="translate(930 150)">
+    <circle cx="70" cy="70" r="62" stroke="#243047" stroke-width="1.5"/>
+    <circle cx="70" cy="70" r="46" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 7">
+      <animateTransform attributeName="transform" type="rotate" from="0 70 70" to="360 70 70" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="70" r="28" fill="#22D3EE" opacity=".1"/>
+    <circle cx="70" cy="70" r="8" fill="#67E8F9" filter="url(#glow)">
+      <animate attributeName="opacity" values=".4;1;.4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="22" r="5" fill="#FB7185">
+      <animateTransform attributeName="transform" type="rotate" from="0 70 70" to="360 70 70" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="118" cy="70" r="4" fill="#A3E635">
+      <animateTransform attributeName="transform" type="rotate" from="90 70 70" to="450 70 70" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- scanning bar -->
+  <rect x="70" y="390" width="1060" height="4" rx="2" fill="#152033"/>
+  <rect x="70" y="390" width="220" height="4" rx="2" fill="url(#neon)">
+    <animate attributeName="x" values="70;910;70" dur="7s" repeatCount="indefinite"/>
+  </rect>
 </svg>

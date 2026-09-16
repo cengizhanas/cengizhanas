@@ -1,0 +1,65 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fs" x1="0" y1="0" x2="380" y2="280">
+      <stop stop-color="#0B1A2E"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="vh" x1="0" y1="0" x2="380" y2="280">
+      <stop stop-color="#1E1030"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="dl" x1="0" y1="0" x2="380" y2="280">
+      <stop stop-color="#0C1F2A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="200" y2="0">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Frenzy Stack -->
+  <g transform="translate(20 20)">
+    <rect width="370" height="280" rx="22" fill="url(#fs)" stroke="#1E3A5F" stroke-width="2"/>
+    <rect x="22" y="22" width="92" height="26" rx="8" fill="#14532D" stroke="#22C55E"/>
+    <text x="68" y="40" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace, Menlo, monospace" font-size="12" font-weight="700">LIVE</text>
+    <text x="24" y="92" fill="#F8FAFC" font-family="ui-monospace, Menlo, monospace" font-size="26" font-weight="800">Frenzy Stack</text>
+    <text x="24" y="128" fill="#67E8F9" font-family="ui-monospace, Menlo, monospace" font-size="15">Stack blocks. Reach the top!</text>
+    <text x="24" y="168" fill="#94A3B8" font-family="ui-monospace, Menlo, monospace" font-size="13">Timing · skins · leaderboards</text>
+    <text x="24" y="192" fill="#94A3B8" font-family="ui-monospace, Menlo, monospace" font-size="13">Frenzy Mode · daily quests</text>
+    <rect x="24" y="220" width="160" height="4" rx="2" fill="url(#neon)">
+      <animate attributeName="width" values="90;200;90" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="24" y="258" fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="12">iOS &amp; Android · Casual</text>
+  </g>
+
+  <!-- Void Hunter -->
+  <g transform="translate(415 20)">
+    <rect width="370" height="280" rx="22" fill="url(#vh)" stroke="#4C1D95" stroke-width="2"/>
+    <rect x="22" y="22" width="128" height="26" rx="8" fill="#3B0764" stroke="#E879F9"/>
+    <text x="86" y="40" text-anchor="middle" fill="#F0ABFC" font-family="ui-monospace, Menlo, monospace" font-size="12" font-weight="700">COMING SOON</text>
+    <text x="24" y="92" fill="#F8FAFC" font-family="ui-monospace, Menlo, monospace" font-size="26" font-weight="800">Void Hunter</text>
+    <text x="24" y="128" fill="#E879F9" font-family="ui-monospace, Menlo, monospace" font-size="15">Survive the rift. Hunt together.</text>
+    <text x="24" y="168" fill="#94A3B8" font-family="ui-monospace, Menlo, monospace" font-size="13">Hunters · evolve · co-op</text>
+    <text x="24" y="192" fill="#94A3B8" font-family="ui-monospace, Menlo, monospace" font-size="13">Action survival from CasGames</text>
+    <circle cx="320" cy="48" r="8" fill="#E879F9">
+      <animate attributeName="opacity" values=".3;1;.3" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="24" y="258" fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="12">iOS &amp; Android · Action</text>
+  </g>
+
+  <!-- Das Library -->
+  <g transform="translate(810 20)">
+    <rect width="370" height="280" rx="22" fill="url(#dl)" stroke="#155E75" stroke-width="2"/>
+    <rect x="22" y="22" width="150" height="26" rx="8" fill="#083344" stroke="#22D3EE"/>
+    <text x="97" y="40" text-anchor="middle" fill="#67E8F9" font-family="ui-monospace, Menlo, monospace" font-size="12" font-weight="700">NOT A GAME</text>
+    <text x="24" y="92" fill="#F8FAFC" font-family="ui-monospace, Menlo, monospace" font-size="26" font-weight="800">Das Library</text>
+    <text x="24" y="128" fill="#22D3EE" font-family="ui-monospace, Menlo, monospace" font-size="15">Read. Track. Build the habit.</text>
+    <text x="24" y="168" fill="#94A3B8" font-family="ui-monospace, Menlo, monospace" font-size="13">Books · series · notes</text>
+    <text x="24" y="192" fill="#94A3B8" font-family="ui-monospace, Menlo, monospace" font-size="13">Digital library &amp; daily log</text>
+    <rect x="24" y="220" width="120" height="4" rx="2" fill="#22D3EE" opacity=".8">
+      <animate attributeName="opacity" values=".4;1;.4" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="24" y="258" fill="#64748B" font-family="ui-monospace, Menlo, monospace" font-size="12">iOS &amp; Android · Reading</text>
+  </g>
+</svg>
