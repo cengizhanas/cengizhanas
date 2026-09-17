@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cengizhan-header.svg" width="100%" alt="Cengizhan As — Ship fast. Shine bright." />
+<img src="./assets/cengizhan-header.png" width="100%" alt="Cengizhan As — Ship fast. Shine bright." />
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 <a href="https://git.io/typing-svg">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Arcade+energy.+Production+grade.;I+ship+games%2C+apps+and+backend+systems.;Flutter+on+device.+Go+in+the+core.;Short+sessions.+High+polish.+Real+products.;CasGames+%E2%80%94+Play+fast.+Shine+bright."
+    src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Arcade+energy.+Production+grade.;I+ship+games%2C+apps+and+backend+systems.;Flutter+on+device.+Go+in+the+core.;Short+sessions.+High+polish.+Real+products.;CasGames+-+Play+fast.+Shine+bright."
     alt="Typing animation"
   />
 </a>
@@ -42,7 +42,7 @@ Studio: CasGames  ·  Site: casgames.com.tr
 ```
 
 <div align="center">
-  <img src="./assets/build-spectrum.svg" width="100%" alt="Build spectrum" />
+  <img src="./assets/build-spectrum.png" width="100%" alt="Build spectrum" />
 </div>
 
 ## `02 / HOW I BUILD`
@@ -51,7 +51,7 @@ Kısa seans. Yüksek tempo. Temiz his.
 Same energy whether it’s a game loop or an API boundary.
 
 <div align="center">
-  <img src="./assets/mode-pillars.svg" width="100%" alt="Arcade · Systems · Polish" />
+  <img src="./assets/mode-pillars.png" width="100%" alt="Arcade · Systems · Polish" />
 </div>
 
 | Mode | Feel | What it means |
@@ -66,9 +66,9 @@ I run **[CasGames](https://casgames.com.tr)** — arcade-souled casual mobile ga
 Fast to open. Easy to play. Hard to put down.
 
 <div align="center">
-  <img src="./assets/products-strip.svg" width="100%" alt="Frenzy Stack · Void Hunter · Das Library" />
+  <img src="./assets/products-strip.png" width="100%" alt="Frenzy Stack · Void Hunter · Das Library" />
   <br/>
-  <img src="./assets/cas-icon-set.png" width="420" alt="CasGames icon set" />
+  <img src="./assets/cas-icon-set.jpg" width="420" alt="CasGames icon set" />
 </div>
 
 <table>
@@ -218,22 +218,14 @@ core:
 
 <div align="center">
 
-<img height="170"
-  src="https://github-readme-stats.vercel.app/api?username=cengizhanas&show_icons=true&hide_border=true&rank_icon=github&theme=radical&bg_color=00000000&title_color=67E8F9&icon_color=FB7185&text_color=CBD5E1"
-  alt="GitHub stats" />
+<img height="180"
+  src="https://github-readme-streak-stats.herokuapp.com/?user=cengizhanas&theme=radical&hide_border=true&background=00000000&ring=22D3EE&fire=FB7185&currStreakLabel=67E8F9&sideLabels=CBD5E1&dates=94A3B8"
+  alt="GitHub streak" />
 
-<img height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=cengizhanas&layout=compact&hide_border=true&theme=radical&bg_color=00000000&langs_count=8&title_color=E879F9&text_color=CBD5E1"
+<img height="180"
+  src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=cengizhanas&layout=compact&hide_border=true&theme=radical&bg_color=00000000&langs_count=8&title_color=E879F9&text_color=CBD5E1"
   alt="Top languages" />
 
-</div>
-
-<div align="center">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=cengizhanas&theme=react-dark&hide_border=true&bg_color=00000000&color=22D3EE&line=E879F9&point=A3E635&area=true"
-    alt="GitHub activity graph"
-  />
 </div>
 
 ## `08 / CONTRIBUTION SNAKE`
@@ -243,15 +235,11 @@ core:
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/cengizhanas/cengizhanas/output/github-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/cengizhanas/cengizhanas/output/github-snake.svg"
+    srcset="https://raw.githubusercontent.com/cengizhanas/cengizhanas/output/github-snake-dark.gif"
   />
   <img
     alt="GitHub contribution snake"
-    src="https://raw.githubusercontent.com/cengizhanas/cengizhanas/output/github-snake.svg"
+    src="https://raw.githubusercontent.com/cengizhanas/cengizhanas/output/github-snake.gif"
   />
 </picture>
 

@@ -18,12 +18,12 @@ local-AI pipelines and product architecture.
 
 2. Upload:
    - README.md
-   - assets/cengizhan-header.svg
-   - assets/build-spectrum.svg
-   - assets/mode-pillars.svg
-   - assets/products-strip.svg
-   - assets/cas-icon-set.png
-   - assets/hero-neon-banner.png (optional)
+   - assets/cengizhan-header.png
+   - assets/build-spectrum.png
+   - assets/mode-pillars.png
+   - assets/products-strip.png
+   - assets/cas-icon-set.jpg
+   - assets/hero-neon-banner.jpg (optional)
    - .github/workflows/snake.yml
 
 3. Replace every occurrence of:
